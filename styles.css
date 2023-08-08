@@ -5,17 +5,18 @@ html {
 body {
 	background-color: #1F2937;
 	height: 100vh;
-	flex-direction: column;
-	display: flex;
 
 }
 
 ul {
 	list-style: none;
-	gap: 10px;
+	gap: 15px;
 	display: flex;
 }
 
+a:hover {
+	color :#3882F6;
+}
 
 a {
 	text-decoration: none;
@@ -28,6 +29,7 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 0 150px;
 }
 
 .logo {
@@ -38,25 +40,66 @@ a {
 
 .section-one {
 	display: flex;
-	border: 1px solid white;
+	height: 600px;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 150px;
+	max-width: auto;
 	gap: 50px;
 }
 
 
-.corporate-img img {
-	width: 400px;
-	height:  250px;
-	max-width: 100vw;
-	border-radius: 5px;
+.content-block {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	justify-content: center;
+	height: 350px;
+	min-width: auto;
 }
 
-.signup {
-	padding: 10px 20px;
+#bold-phrase {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+	margin-bottom: -5px;
+
+}
+
+#title {
+	font-size: 18px;
+	color: #E5E7EB;
+
+}
+
+.image-container {
+	width: 600px;
+	flex-shrink: 1;
+}
+
+.corporate-img img {
+	height:  auto;
+	border-radius: 5px;
+	max-width: 100%;
+}
+
+#signup:hover {
+	color: #3882F6;
+	background-color: #3881f66a;
+}
+
+#signup {
 	color: #E5E7EB;
 	background-color: #3882F6;
 	border-radius: 6px;
 	width: 110px;
 	font-size: 18px;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 3px;
+	margin-top: -4px;
 } 
 
 .footer {
@@ -69,3 +112,91 @@ a {
 
 
 
+.section-two {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #F9FAF8;
+	padding: 0 150px;
+	height: 400px;
+	flex-wrap: wrap;
+
+}
+
+.subtitle p {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937
+
+}
+
+.team-image-container {
+	display: flex;
+	justify-content: space-evenly;
+	gap: 5px;
+	min-width: 0;
+	
+}
+
+
+#first,
+#second,
+#third,
+#forth {
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.mugshot {
+	display: flex;
+	justify-content: center;
+}
+
+.mugshot img {
+	height: auto;
+	border-radius: 10px;
+	max-width: 80%;
+
+}
+
+.description {
+	text-align: center;
+	font-size: 18px;
+	color: #1F2937;
+}
+
+
+.section-three {
+	background-color: #E5E7EB;
+	color: #1F2937;
+	display: flex;
+	align-items: center;
+	padding: 100px 150px;
+
+	min-height: 0;
+}
+
+.container {
+	display: flex;
+	border: 1px solid blueviolet;
+	flex-direction: column;
+	
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1F2937;
+	border: 1px solid blueviolet;
+}
+
+
+.testimony {
+	align-self: flex-end;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1F2937
+
+}
