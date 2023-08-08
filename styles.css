@@ -29,7 +29,6 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 150px;
-	margin-bottom: -20px;
 }
 
 .logo {
@@ -41,7 +40,7 @@ a {
 
 .section-one {
 	display: flex;
-	padding: 0 150px;
+	padding: 0 150px 40px;
 	gap: 50px;
 	align-items: center;
 	flex-wrap: wrap;
@@ -54,7 +53,8 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	width: 300px;
-	flex: 1;
+	
+
 }
 
 
@@ -101,7 +101,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 6px 3px;
+	padding: 3px 3px;
 	margin-top: -4px;
 } 
 
@@ -212,19 +212,31 @@ a {
 	display: flex;
 	border-radius: 5px;
 	background-color: #3882F6;
-	gap: 40px;
+	gap: 20px;
+	padding-bottom: 10px;
 }
 
 
 .call-to-action {
 	display:flex;
 	flex-direction: column;
-	padding: 0 100px;
+	padding-left: 40px
 }
 
-h4 {
+
+.call-to-action p {
 	color: #F9FAF8;
+	margin-top: 1px;
+	font-size: 12px;
 }
+
+
+h5 {
+	color: #F9FAF8;
+	margin-bottom: 0;
+}
+
+
 
 
 #signup2{
@@ -236,11 +248,12 @@ h4 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 6px 3px;
+	padding: 3px 3px;
 	border: 1px solid #F9FAF8;
 	min-width: 110px;
 	align-self: center;
 	margin-right: 40px;
+	margin-left: 0;
 } 
 
 
