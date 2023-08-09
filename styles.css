@@ -119,6 +119,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	flex-basis: 0;
+	align-items: center;
 	
 }
 
